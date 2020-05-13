@@ -47,52 +47,21 @@ h4, h5, h6 {
 }
 
 
-#main_3d_image {
-    background-image: url(../assets/images/site_images/main_3D_image.jpg);
-    background-repeat: no-repeat;
-    height: 200px;
-}
-#main_text {
-    float: left;
-    margin: 5%;
-    width: 90%;
-    display: block;
-    background-color: rgba(255,255,255,0.8);
-    padding: 10px;
-    border-radius: 5px;
-}
-#main_text h2 {
-    color: rgba(0,102,153,1);
-    font-size: 20px;
-    margin-top: 0px;
-    margin-bottom: 5px;
-}
-#main_text h3 {
-    font-size: 15px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-#main_text p {
-    font-size: 12px;
-    margin: 0px;
-    line-height: 1.2;
-} 
-
-.drinksText > h2 {
+.modelText > h2 {
     color: rgb(0, 0, 0);
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 5px;
 }
 
-.drinksText > h3 {
+.modelText > h3 {
     color: rgb(0, 0, 0);
     font-size: 15px;
     margin-top: 0px;
     margin-bottom: 5px;
 }
 
-.drinksText > p {
+.modelText > p {
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -136,25 +105,6 @@ h4, h5, h6 {
     padding-right: 2px;
     }
     
-    .logo h2 {
-    font-family: modelFont;
-    font-size: 31px;
-    margin-top: -6px;
-    margin-bottom: -15px;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 3px;
-    float: left;
-    }
-    
-    .logo h3 {
-    font-size: 18px;
-    margin-top: 0px;
-    margin-bottom: -5px;
-    padding-top: 0px;
-    padding-left: 0px;
-    float: left;
-    }
     
     .logo p {
     font-size: 7px; 
@@ -345,28 +295,23 @@ h4, h5, h6 {
         background-color: #f7f9fb;
     }
 
-    
+   
 
-    #main_text {
-        float: right;
-        margin-top: 7%;
-    }
-
-    .drinksText > h2 {
+    .modelText > h2 {
         color: rgb(0, 0, 0);
         font-size: 25px;
         margin-top: 0px;
         margin-bottom: 5px;
     }
     
-    .drinksText > h3 {
+    .modelText > h3 {
         color: rgb(0, 0, 0);
         font-size: 18px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
     
-    .drinksText > p {
+    .modelText > p {
         font-size: 14px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -422,21 +367,21 @@ h4, h5, h6 {
     }
 
     
-    .drinksText > h2 {
+    .modelText > h2 {
         color: rgb(0, 0, 0);
         font-size: 27px;
         margin-top: 0px;
         margin-bottom: 5px;
     }
     
-    .drinksText > h3 {
+    .modelText > h3 {
         color: rgb(0, 0, 0);
         font-size: 20px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
     
-    .drinksText > p {
+    .modelText > p {
         font-size: 15px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -449,24 +394,7 @@ h4, h5, h6 {
         background-color: #f7f9fb;
     }
 
-    #main_text {
-        float: right;
-        margin-top: 7%;
-    }
-
-    #main_text h2 {
-        color: crimson;
-        font-size: 30px;
-    }
     
-    #main_text h3 {
-        color: darkcyan;
-        font-size:22px;
-    }
-    
-    #main_text p {
-        font-size: 15px;
-    }
     
     .logo {
         margin-top: 3px;
@@ -484,25 +412,7 @@ h4, h5, h6 {
         padding-right: 2px;
     }
 
-    .logo h2 {
-        font-family: modelFont;
-        font-size: 43px;
-        margin-top: 5px;
-        margin-bottom: -15px;
-        padding-top: 0px;
-        padding-left: 0px;
-        padding-right: 3px;
-        float: left;
-    }
-
-    .logo h3 {
-        font-size: 31px;
-        margin-top: 5px;
-        margin-bottom: 3px;
-        padding-top: 0px;
-        padding-left: 0px;
-        float: left;
-    }
+    
 
     .logo p {
         font-size: 10px;
@@ -555,22 +465,9 @@ h4, h5, h6 {
     }
 
 
-    #main_text {
-        float: right;
-        margin-top: 20%;
-    }
-
-    #main_text h3 {
-        color: darkcyan;
-        font-size:22px;
-    }
-    
-    #main_text p {
-        font-size: 15px;
-    }
+   
 
     .card {
-        /* border-radius: .25rem;*/
         margin-top: 10px;
         margin-bottom: 10px;
         background-color: #e4e4e4;
@@ -592,25 +489,7 @@ h4, h5, h6 {
         padding-right: 0px;
     }
 
-    .logo h2 {
-        font-family: modelFont;
-        font-size: 65px;
-        margin-top: 7px;
-        margin-bottom: -25px;
-        padding-top: 0px;
-        padding-left: 0px;
-        padding-right: 6px;
-        float: left;
-    }
-
-    .logo h3 {
-        font-size: 40px;
-        margin-top: 15px;
-        margin-bottom: -5px;
-        padding-top: 0px;
-        padding-left: 0px;
-        float: left;
-    }
+   
 
     .logo p {
         font-size: 14px;
@@ -662,11 +541,7 @@ h4, h5, h6 {
 
 
 @media (min-width: 1200px) {   
-    #main_3d_image {
-        background-image: url(../assets/images/site_images/main_3D_1400.jpg);
-        background-repeat: repeat;
-        height: 524px;
-    }
+   
 
     .model3D  {
         height: 300px;

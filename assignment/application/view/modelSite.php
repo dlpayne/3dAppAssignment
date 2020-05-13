@@ -1,3 +1,5 @@
+<!-- Code adapted from module tutorials and www.w3schools.com -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -194,9 +196,9 @@
       <div class="col-sm-12">
         <div class="card text-left">
             <div class="card-body">
-                <div class="card-title title_gallery drinksText"></div>
+                <div class="card-title title_gallery modelText"></div>
                 <div class="gallery" id="gallery"></div>
-                <div class="card-text description_gallery drinksText"></div>
+                <div class="card-text description_gallery modelText"></div>
             </div>
         </div> 
       </div> 
@@ -342,7 +344,7 @@
             </div>
             <div class="card-body">
               <div id="sprite">
-                <div id="x3dModelTitle_sprite" class="card-title drinksText"></div>
+                <div id="x3dModelTitle_sprite" class="card-title modelText"></div>
                
                 <div class="model3D">
                   <x3d id="model">
@@ -352,11 +354,11 @@
                     </scene>
                   </x3d>
                 </div>
-                <div id="x3dCreationMethod_sprite" class="card-text drinksText"></div>
+                <div id="x3dCreationMethod_sprite" class="card-text modelText"></div>
               </div>
              
               <div id="snes" style="display:none;">
-                <div id="x3dModelTitle_snes" class="card-title drinksText"></div>
+                <div id="x3dModelTitle_snes" class="card-title modelText"></div>
                 
                 <div class="model3D">
                   <x3d id="model2">
@@ -366,11 +368,11 @@
                     </scene>
                   </x3d>
                 </div>
-                <div id="x3dCreationMethod_snes" class="card-text drinksText"></div>
+                <div id="x3dCreationMethod_snes" class="card-text modelText"></div>
               </div>
              
               <div id="coffee" style="display:none;">
-                <div id="x3dModelTitle_coffee" class="card-title drinksText"></div>
+                <div id="x3dModelTitle_coffee" class="card-title modelText"></div>
                 
                 <div class="model3D">
                   <x3d id="model3">
@@ -381,11 +383,11 @@
                     </scene>
                   </x3d>
                 </div>
-                <div id="x3dCreationMethod_coffee" class="card-text drinksText"></div>
+                <div id="x3dCreationMethod_coffee" class="card-text modelText"></div>
               </div>
 
               <div id="chair" style="display:none;">
-                <div id="x3dModelTitle_chair" class="card-title drinksText"></div>
+                <div id="x3dModelTitle_chair" class="card-title modelText"></div>
                
                 <div class="model3D">
                   <x3d id="model4">
@@ -395,7 +397,7 @@
                     </scene>
                   </x3d>
                 </div>
-                <div id="x3dCreationMethod_chair" class="card-text drinksText"></div>
+                <div id="x3dCreationMethod_chair" class="card-text modelText"></div>
               </div>
             </div>
           </div>
@@ -412,7 +414,7 @@
         <div class="card text-center">
          
           <div class="card-body">
-            <div class="card-Title x3dCamera_Subtitle drinksText" style="margin-bottom:30px">
+            <div class="card-Title x3dCamera_Subtitle modelText" style="margin-bottom:30px">
               <h2>Ò!!Modeling!!Software!!used!!Ó </h2>
             </div>
             <div id="spriteDescription">
@@ -459,9 +461,9 @@
           <div class="col-sm-12">
             <div class="card">
               <div class="card-body">
-                <div id="title_sprite" class="card-title drinksText"></div>
-                <div id="subTitle_sprite" class="card-subtitle drinksText"></div>
-                <div id="description_sprite" class="card-text drinksText"></div>
+                <div id="title_sprite" class="card-title modelText"></div>
+                <div id="subTitle_sprite" class="card-subtitle modelText"></div>
+                <div id="description_sprite" class="card-text modelText"></div>
                 <p>Sprite is a colorless, lemon and lime-flavored soft drink created by The Coca-Cola Company. It was
                   first developed in West Germany in 1959 as Fanta Klare Zitrone and was introduced in the United States
                   under the current brand name Sprite in 1961 as a competitor to 7 Up. (Wikipedia). This model was created using 
@@ -480,9 +482,9 @@
           <div class="col-sm-12">
             <div class="card">
               <div class="card-body">
-                <div id="title_snes" class="card-title drinksText"></div>
-                <div id="subTitle_snes" class="card-subtitle drinksText"></div>
-                <div id="description_snes" class="card-text drinksText"></div>
+                <div id="title_snes" class="card-title modelText"></div>
+                <div id="subTitle_snes" class="card-subtitle modelText"></div>
+                <div id="description_snes" class="card-text modelText"></div>
                 <p>The Super Nintendo Entertainment System (SNES),also known as the Super NES or Super
                   Nintendo, is a 16-bit home video game console developed by Nintendo that was released in 1990 in
                   Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in
@@ -506,9 +508,9 @@
           <div class="col-sm-12">
             <div class="card">
               <div class="card-body">
-                <div id="title_coffee" class="card-title drinksText"></div>
-                <div id="subTitle_coffee" class="card-subtitle drinksText"></div>
-                <div id="description_coffee" class="card-text drinksText"></div>
+                <div id="title_coffee" class="card-title modelText"></div>
+                <div id="subTitle_coffee" class="card-subtitle modelText"></div>
+                <div id="description_coffee" class="card-text modelText"></div>
                 <p>The cappuccino is served in its own cup, a 171 ml porcelain cup served on an accompanying saucer. The
                   size of the cup reflects the traditional cappuccino, a drink with a 1:1:1 ratio. 57 ml espresso, 57 ml
                   steamed milk, 57 ml integrated foam.
@@ -533,9 +535,9 @@
           <div class="col-sm-12">
             <div class="card">
               <div class="card-body">
-                <div id="title_chair" class="card-title drinksText"></div>
-                <div id="subTitle_chair" class="card-subtitle drinksText"></div>
-                <div id="description_chair" class="card-text drinksText"></div>
+                <div id="title_chair" class="card-title modelText"></div>
+                <div id="subTitle_chair" class="card-subtitle modelText"></div>
+                <div id="description_chair" class="card-text modelText"></div>
                 <p>Chairs were in existence since at least the Early Dynastic Period of Egypt (c. 3100 BC). They were
                   covered with cloth or leather, were made of carved wood, and were much lower than today's chairs –
                   chair seats were sometimes only 10 inches (25 cm) high.[12] In ancient Egypt chairs appear to have
@@ -571,9 +573,9 @@
          | 
         <a href="javascript:changeBack()">Reset</a>
         |
-         <a href="www.github.com">Github</a>
+        <a href="https://github.com/dlpayne/3dAppAssignment" target="_blank">Github</a> 
         |
-         <a href="www.github.com">Codebase</a>
+        <a href="https://github.com/dlpayne/3dAppAssignment" target="_blank">Models</a>
         |
       </span></p>
       </div>
@@ -594,7 +596,7 @@
        
         <div class="modal-body">
           <p>As a result of Covid-19, my access to a Windows machine was limited. My initial plan was to incorporate an SQL Database to store 
-            some data. Software issues meant this was not possible. Data, such as images, are accessed used PHP.<br> Two of the models were 
+            some data. Software issues caused problems and as a result of this I decided to leave this element out. Data, such as images, are accessed using PHP.<br> Two of the models were 
             created using Blender and two were created with 3DS Max. Models created in Blender were exported as .abc (Alembic) files. These 
             were then placed into the 3DS Max scene where the animations and VRML helpers could be implemented. The models were finally
             exported to VRML and converted to X3D.<br>
